@@ -12,13 +12,13 @@ local Char = Plr.Character or Plr.CharacterAdded:Wait()
 local Hum = Char:WaitForChild("Humanoid")
 
 local SelfModules = {
-    Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))(),
-    DoorReplication = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Door%20Replication/Source.lua"))(),
-    Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))(),
-    CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))(),
+    Functions = loadstring(game:HttpGet("https://github.com/IseeYou011011000110111101101100/CustomShopItems/raw/main/Functions.lua"))(),
+    DoorReplication = loadstring(game:HttpGet("https://github.com/IseeYou011011000110111101101100/DoorReplication/raw/main/Source.lua"))(),
+    Achievements = loadstring(game:HttpGet("https://github.com/IseeYou011011000110111101101100/CustomAchievements/raw/main/Source.lua"))(),
+    CustomShop = loadstring(game:HttpGet("https://github.com/IseeYou011011000110111101101100/CustomShopItems/raw/main/CustomShopItems.lua"))(),
 }
 local Assets = {
-    KeyItem = LoadCustomInstance("https://github.com/RegularVynixu/Miscellaneous/blob/main/Doors/Cursed%20Key/CursedKeyItem.rbxm?raw=true"),
+    KeyItem = LoadCustomInstance("https://github.com/IseeYou011011000110111101101100/CursedKey/blob/main/CursedKeyItem.rbxm?raw=true"),
 }
 
 -- Functions
